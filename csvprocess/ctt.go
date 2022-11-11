@@ -41,6 +41,7 @@ func ProcesCTT(file string, ch chan bool) error {
 			status = "failed"
 		}
 
+		// If there is not error, update account
 		if !errorTransfer {
 			services.AccountService.AddAmount(row, accountTo)      // Update balance of the reciever
 			services.AccountService.DeductAmount(row, accountFrom) // Update balance of the sender
