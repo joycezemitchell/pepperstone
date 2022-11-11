@@ -1,0 +1,3 @@
+From Account(id),To Account(id),Amount,Currency,Status,Error
+19800,12350,200,AUD,,
+19801,12356,150,USD,failed,Destination account currency mismatch
