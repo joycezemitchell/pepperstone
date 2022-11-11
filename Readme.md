@@ -23,7 +23,7 @@ bin/pepperstonecsv
 ```
 The script will read all csv files from csv/input directory.
 Csv file with xxxx_ctt.csv naming convention will be process as Cash Transfer Type. 
-The script will gererated a csv file and save it in /csv/output/ directory.
+The script will gererate a csv file and save it in /csv/output/ directory.
 
 The script will be using a temporary database stored in domain/account/datasouce
 Here are the data.    
