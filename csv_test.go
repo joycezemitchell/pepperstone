@@ -22,7 +22,7 @@ func TestGetAccount(t *testing.T) {
 	}
 }
 
-// TestGetAccount ...
+// TestAddAmount ...
 func TestAddAmount(t *testing.T) {
 
 	testAccount := account.Account{
@@ -46,7 +46,7 @@ func TestAddAmount(t *testing.T) {
 }
 
 
-// TestGetAccount ...
+// TestDeductAmount ...
 func TestDeductAmount(t *testing.T) {
 
 	testAccount := account.Account{
